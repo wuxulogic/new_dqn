@@ -1,0 +1,85 @@
+
+============================================================
+Env: MiniGrid-FourRooms-v0 | 500 episodes | 5 seeds
+============================================================
+
+  dqn ！ Standard DQN (baseline)
+    seed= 0  AUC=   0.02  final=   0.00  peak=   0.99  time=128s
+    seed= 1  AUC=   0.01  final=   0.00  peak=   0.98  time=137s
+    seed= 2  AUC=   0.02  final=   0.02  peak=   0.99  time=134s
+    seed= 3  AUC=   0.01  final=   0.01  peak=   0.99  time=138s
+    seed= 4  AUC=   0.00  final=   0.00  peak=   0.00  time=131s
+
+  dqn_hier ！ DQN + hierarchical causal attention
+    seed= 0  AUC=   0.02  final=   0.02  peak=   0.99  time=654s  lam=0.2084
+    seed= 1  AUC=   0.01  final=   0.01  peak=   0.99  time=668s  lam=0.2107
+    seed= 2  AUC=   0.02  final=   0.01  peak=   0.99  time=659s  lam=0.1941
+    seed= 3  AUC=   0.02  final=   0.02  peak=   0.99  time=664s  lam=0.2442
+    seed= 4  AUC=   0.01  final=   0.00  peak=   0.98  time=679s  lam=0.1936
+
+============================================================
+Env: MiniGrid-DoorKey-5x5-v0 | 500 episodes | 5 seeds
+============================================================
+
+  dqn ！ Standard DQN (baseline)
+    seed= 0  AUC=   0.01  final=   0.01  peak=   0.99  time=132s
+    seed= 1  AUC=   0.03  final=   0.03  peak=   0.99  time=130s
+    seed= 2  AUC=   0.01  final=   0.00  peak=   0.88  time=134s
+    seed= 3  AUC=   0.02  final=   0.01  peak=   0.99  time=131s
+    seed= 4  AUC=   0.02  final=   0.02  peak=   0.99  time=126s
+
+  dqn_hier ！ DQN + hierarchical causal attention
+    seed= 0  AUC=   0.02  final=   0.01  peak=   0.99  time=666s  lam=0.1656
+    seed= 1  AUC=   0.02  final=   0.01  peak=   0.98  time=674s  lam=0.1900
+    seed= 2  AUC=   0.01  final=   0.02  peak=   0.98  time=678s  lam=0.1756
+    seed= 3  AUC=   0.01  final=   0.00  peak=   0.97  time=672s  lam=0.2216
+    seed= 4  AUC=   0.02  final=   0.02  peak=   0.99  time=666s  lam=0.1933
+
+============================================================
+Env: MiniGrid-KeyCorridorS3R1-v0 | 500 episodes | 5 seeds
+============================================================
+
+  dqn ！ Standard DQN (baseline)
+    seed= 0  AUC=   0.02  final=   0.01  peak=   0.99  time=130s
+    seed= 1  AUC=   0.01  final=   0.02  peak=   0.97  time=132s
+    seed= 2  AUC=   0.01  final=   0.00  peak=   0.98  time=134s
+    seed= 3  AUC=   0.00  final=   0.00  peak=   0.50  time=135s
+    seed= 4  AUC=   0.00  final=   0.01  peak=   0.64  time=129s
+
+  dqn_hier ！ DQN + hierarchical causal attention
+    seed= 0  AUC=   0.02  final=   0.01  peak=   0.99  time=669s  lam=0.2090
+    seed= 1  AUC=   0.02  final=   0.01  peak=   0.98  time=659s  lam=0.2317
+    seed= 2  AUC=   0.00  final=   0.00  peak=   0.98  time=686s  lam=0.1789
+    seed= 3  AUC=   0.02  final=   0.01  peak=   0.99  time=670s  lam=0.2650
+    seed= 4  AUC=   0.02  final=   0.02  peak=   0.99  time=680s  lam=0.1874
+
+================================================================================
+CROSS-ENVIRONMENT SUMMARY
+================================================================================
+
+  MiniGrid-FourRooms-v0:
+  Variant              AUC                 95% CI    Final     Peak   lambda
+  ------------------------------------------------------------------------
+  dqn               0.0125 [  0.0053,   0.0193]   0.0063      0.8      N/A
+  dqn_hier          0.0139 [  0.0098,   0.0176]   0.0120      1.0   0.2102
+    dqn_hier - dqn: +0.0013 [-0.0022, +0.0048] p=0.4488 (n=5)
+
+  MiniGrid-DoorKey-5x5-v0:
+  Variant              AUC                 95% CI    Final     Peak   lambda
+  ------------------------------------------------------------------------
+  dqn               0.0202 [  0.0143,   0.0262]   0.0135      1.0      N/A
+  dqn_hier          0.0155 [  0.0114,   0.0190]   0.0112      1.0   0.1892
+    dqn_hier - dqn: -0.0047 [-0.0120, +0.0026] p=0.1906 (n=5)
+
+  MiniGrid-KeyCorridorS3R1-v0:
+  Variant              AUC                 95% CI    Final     Peak   lambda
+  ------------------------------------------------------------------------
+  dqn               0.0093 [  0.0033,   0.0153]   0.0085      0.8      N/A
+  dqn_hier          0.0166 [  0.0105,   0.0208]   0.0087      1.0   0.2144
+    dqn_hier - dqn: +0.0073 [-0.0011, +0.0157] p=0.0752 (n=5)
+
+  OVERALL: 3 environments
+    dqn_hier wins: 2/3 environments
+    Significant (p<0.05): 0/3 environments
+
+Results saved to results\minigrid_compare\results.json

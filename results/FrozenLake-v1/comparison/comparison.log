@@ -1,0 +1,387 @@
+2026-05-01 16:33:40,237 [INFO] 
+============================================================
+Training dqn on FrozenLake-v1
+============================================================
+2026-05-01 16:33:41,119 [INFO] Starting training for 200 episodes
+2026-05-01 16:33:41,128 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 40.8 | Epsilon: 0.9959608
+2026-05-01 16:33:41,137 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 40.7 | Epsilon: 0.9919315
+2026-05-01 16:33:41,153 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:41,155 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 20.9 | Epsilon: 0.9810811
+2026-05-01 16:33:41,167 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 28.0 | Epsilon: 0.9783091
+2026-05-01 16:33:41,184 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:41,189 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 31.9 | Epsilon: 0.9639046
+2026-05-01 16:33:41,195 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 31.6 | Epsilon: 0.9607762
+2026-05-01 16:33:41,208 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:41,470 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 24.1 | Epsilon: 0.9468667
+2026-05-01 16:33:42,092 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 43.6 | Epsilon: 0.9425503
+2026-05-01 16:33:42,104 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:42,849 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 47.5 | Epsilon: 0.9276706
+2026-05-01 16:33:43,276 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 28.1 | Epsilon: 0.9248887
+2026-05-01 16:33:43,302 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:43,323 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed0\models\model_ep100.pth
+2026-05-01 16:33:43,960 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 39.9 | Epsilon: 0.9095833
+2026-05-01 16:33:44,568 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 41.1 | Epsilon: 0.9055143999999999
+2026-05-01 16:33:44,587 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:45,027 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 29.1 | Epsilon: 0.8947432
+2026-05-01 16:33:45,402 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 21.4 | Epsilon: 0.8926246
+2026-05-01 16:33:45,433 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:46,010 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 36.8 | Epsilon: 0.8808139
+2026-05-01 16:33:46,472 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 29.9 | Epsilon: 0.8778538
+2026-05-01 16:33:46,508 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:47,017 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 32.3 | Epsilon: 0.8661817
+2026-05-01 16:33:47,507 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 31.4 | Epsilon: 0.8630731
+2026-05-01 16:33:47,549 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:48,275 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 40.5 | Epsilon: 0.8471143
+2026-05-01 16:33:48,741 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 29.5 | Epsilon: 0.8441938
+2026-05-01 16:33:48,767 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:48,767 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed0\models\model_ep200.pth
+2026-05-01 16:33:48,779 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed0\models\model_ep200.pth
+2026-05-01 16:33:48,787 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed0\logs\training_results.json
+2026-05-01 16:33:48,801 [INFO] Starting training for 200 episodes
+2026-05-01 16:33:48,805 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 38.0 | Epsilon: 0.996238
+2026-05-01 16:33:48,811 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 25.6 | Epsilon: 0.9937036
+2026-05-01 16:33:48,827 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:48,833 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 25.4 | Epsilon: 0.9820612
+2026-05-01 16:33:48,840 [INFO] Episode 40/200 | Avg Reward: 0.10 | Avg Length: 34.2 | Epsilon: 0.9786754
+2026-05-01 16:33:48,857 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:48,865 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 43.4 | Epsilon: 0.9655678
+2026-05-01 16:33:48,871 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 25.6 | Epsilon: 0.9630334
+2026-05-01 16:33:48,884 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:49,156 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 28.2 | Epsilon: 0.9500149
+2026-05-01 16:33:49,564 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 29.2 | Epsilon: 0.9471241
+2026-05-01 16:33:49,577 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:49,982 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 31.1 | Epsilon: 0.9356896
+2026-05-01 16:33:50,429 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 32.9 | Epsilon: 0.9324325
+2026-05-01 16:33:50,463 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:50,467 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed1\models\model_ep100.pth
+2026-05-01 16:33:50,964 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 34.8 | Epsilon: 0.9200674
+2026-05-01 16:33:51,569 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 43.5 | Epsilon: 0.9157609
+2026-05-01 16:33:51,590 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:51,982 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 27.4 | Epsilon: 0.9034354
+2026-05-01 16:33:52,539 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 39.0 | Epsilon: 0.8995744
+2026-05-01 16:33:52,559 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:53,000 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 30.1 | Epsilon: 0.8884567
+2026-05-01 16:33:53,385 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 26.2 | Epsilon: 0.8858629
+2026-05-01 16:33:53,406 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:53,865 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 30.6 | Epsilon: 0.8744581
+2026-05-01 16:33:54,210 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 22.9 | Epsilon: 0.872191
+2026-05-01 16:33:54,238 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:54,742 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 33.8 | Epsilon: 0.8590141
+2026-05-01 16:33:55,006 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 17.2 | Epsilon: 0.8573113
+2026-05-01 16:33:55,026 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:55,033 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed1\models\model_ep200.pth
+2026-05-01 16:33:55,040 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed1\models\model_ep200.pth
+2026-05-01 16:33:55,042 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed1\logs\training_results.json
+2026-05-01 16:33:55,054 [INFO] Starting training for 200 episodes
+2026-05-01 16:33:55,066 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 27.0 | Epsilon: 0.997327
+2026-05-01 16:33:55,071 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 25.0 | Epsilon: 0.994852
+2026-05-01 16:33:55,088 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:55,090 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 28.3 | Epsilon: 0.9821404
+2026-05-01 16:33:55,098 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 27.0 | Epsilon: 0.9794674
+2026-05-01 16:33:55,119 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:55,122 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 37.1 | Epsilon: 0.9645679
+2026-05-01 16:33:55,132 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 36.6 | Epsilon: 0.9609445
+2026-05-01 16:33:55,184 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:55,375 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 33.0 | Epsilon: 0.9460549
+2026-05-01 16:33:55,874 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 36.4 | Epsilon: 0.9424513
+2026-05-01 16:33:55,899 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:56,341 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 32.8 | Epsilon: 0.927136
+2026-05-01 16:33:56,804 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 33.4 | Epsilon: 0.9238294
+2026-05-01 16:33:56,830 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:56,833 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed2\models\model_ep100.pth
+2026-05-01 16:33:57,546 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 48.9 | Epsilon: 0.9094843
+2026-05-01 16:33:57,919 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 26.5 | Epsilon: 0.9068608
+2026-05-01 16:33:57,951 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:58,238 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 19.4 | Epsilon: 0.8974854999999999
+2026-05-01 16:33:58,599 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 25.6 | Epsilon: 0.8949511
+2026-05-01 16:33:58,634 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:33:59,112 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 30.8 | Epsilon: 0.883279
+2026-05-01 16:33:59,503 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 25.3 | Epsilon: 0.8807743
+2026-05-01 16:33:59,535 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:00,196 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 41.4 | Epsilon: 0.8653798
+2026-05-01 16:34:00,628 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 27.0 | Epsilon: 0.8627068
+2026-05-01 16:34:00,650 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:01,327 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 40.7 | Epsilon: 0.8491042
+2026-05-01 16:34:01,983 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 37.7 | Epsilon: 0.8453719
+2026-05-01 16:34:02,034 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:02,034 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed2\models\model_ep200.pth
+2026-05-01 16:34:02,045 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed2\models\model_ep200.pth
+2026-05-01 16:34:02,056 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed2\logs\training_results.json
+2026-05-01 16:34:02,072 [INFO] Starting training for 200 episodes
+2026-05-01 16:34:02,074 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 38.3 | Epsilon: 0.9962083
+2026-05-01 16:34:02,085 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 26.7 | Epsilon: 0.993565
+2026-05-01 16:34:02,106 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:02,107 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 35.8 | Epsilon: 0.9802693
+2026-05-01 16:34:02,123 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 38.2 | Epsilon: 0.9764875
+2026-05-01 16:34:02,150 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:02,158 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 27.3 | Epsilon: 0.9655381
+2026-05-01 16:34:02,402 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 44.7 | Epsilon: 0.9611128
+2026-05-01 16:34:02,417 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:04,098 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 40.1 | Epsilon: 0.9477973
+2026-05-01 16:34:06,401 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 30.9 | Epsilon: 0.9447382
+2026-05-01 16:34:06,480 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:08,911 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 31.0 | Epsilon: 0.9329670999999999
+2026-05-01 16:34:12,452 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 43.9 | Epsilon: 0.928621
+2026-05-01 16:34:12,551 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:12,563 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed3\models\model_ep100.pth
+2026-05-01 16:34:14,993 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 28.7 | Epsilon: 0.9168301
+2026-05-01 16:34:17,818 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 32.9 | Epsilon: 0.913573
+2026-05-01 16:34:17,948 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:21,109 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 36.3 | Epsilon: 0.8993764
+2026-05-01 16:34:23,441 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 25.9 | Epsilon: 0.8968123
+2026-05-01 16:34:23,568 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:25,603 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 21.6 | Epsilon: 0.8841601
+2026-05-01 16:34:28,111 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 26.8 | Epsilon: 0.8815069
+2026-05-01 16:34:28,255 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:29,543 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 31.3 | Epsilon: 0.8676766
+2026-05-01 16:34:30,166 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 37.8 | Epsilon: 0.8639344
+2026-05-01 16:34:30,189 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:30,701 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 31.8 | Epsilon: 0.8514307
+2026-05-01 16:34:30,995 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 19.9 | Epsilon: 0.8494606
+2026-05-01 16:34:31,027 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:31,027 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed3\models\model_ep200.pth
+2026-05-01 16:34:31,036 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed3\models\model_ep200.pth
+2026-05-01 16:34:31,045 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed3\logs\training_results.json
+2026-05-01 16:34:31,058 [INFO] Starting training for 200 episodes
+2026-05-01 16:34:31,064 [INFO] Episode 10/200 | Avg Reward: 0.10 | Avg Length: 39.7 | Epsilon: 0.9960697
+2026-05-01 16:34:31,070 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 23.7 | Epsilon: 0.9937234
+2026-05-01 16:34:31,085 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:31,091 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 36.2 | Epsilon: 0.9799525
+2026-05-01 16:34:31,097 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 24.1 | Epsilon: 0.9775666
+2026-05-01 16:34:31,115 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:31,122 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 25.9 | Epsilon: 0.965152
+2026-05-01 16:34:31,123 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 20.5 | Epsilon: 0.9631225
+2026-05-01 16:34:31,137 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:31,232 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 35.6 | Epsilon: 0.9513712
+2026-05-01 16:34:31,646 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 30.5 | Epsilon: 0.9483517
+2026-05-01 16:34:31,667 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:32,160 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 36.3 | Epsilon: 0.9346897
+2026-05-01 16:34:32,488 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 23.5 | Epsilon: 0.9323632
+2026-05-01 16:34:32,509 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:32,522 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed4\models\model_ep100.pth
+2026-05-01 16:34:33,057 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 38.2 | Epsilon: 0.9192457
+2026-05-01 16:34:33,532 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 33.1 | Epsilon: 0.9159688
+2026-05-01 16:34:33,550 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:34,054 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 35.9 | Epsilon: 0.9040294
+2026-05-01 16:34:34,498 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 30.9 | Epsilon: 0.9009703
+2026-05-01 16:34:34,534 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:35,130 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 41.4 | Epsilon: 0.8895061
+2026-05-01 16:34:35,676 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 34.8 | Epsilon: 0.8860609
+2026-05-01 16:34:35,712 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:36,155 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 28.9 | Epsilon: 0.8730523
+2026-05-01 16:34:36,747 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 38.6 | Epsilon: 0.8692309
+2026-05-01 16:34:36,778 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:37,343 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 37.4 | Epsilon: 0.8547868
+2026-05-01 16:34:37,760 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 27.7 | Epsilon: 0.8520445
+2026-05-01 16:34:37,789 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:37,795 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed4\models\model_ep200.pth
+2026-05-01 16:34:37,799 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed4\models\model_ep200.pth
+2026-05-01 16:34:37,804 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\dqn\seed4\logs\training_results.json
+2026-05-01 16:34:37,804 [INFO] 
+============================================================
+Training hcra_dqn on FrozenLake-v1
+============================================================
+2026-05-01 16:34:37,835 [INFO] Starting training for 200 episodes
+2026-05-01 16:34:37,841 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 22.5 | Epsilon: 0.9977725
+2026-05-01 16:34:37,848 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 19.9 | Epsilon: 0.9958024
+2026-05-01 16:34:37,890 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:37,899 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 20.4 | Epsilon: 0.9826651
+2026-05-01 16:34:37,918 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 31.7 | Epsilon: 0.9795268
+2026-05-01 16:34:37,963 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:37,979 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 28.4 | Epsilon: 0.9669736
+2026-05-01 16:34:37,996 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 19.9 | Epsilon: 0.9650035
+2026-05-01 16:34:38,046 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:38,082 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 49.9 | Epsilon: 0.9515296
+2026-05-01 16:34:40,418 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 24.9 | Epsilon: 0.9490645
+2026-05-01 16:34:40,505 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:44,989 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 29.0 | Epsilon: 0.9382636
+2026-05-01 16:34:49,781 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 29.4 | Epsilon: 0.935353
+2026-05-01 16:34:49,976 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:34:49,999 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed0\models\model_ep100.pth
+2026-05-01 16:34:55,080 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 31.9 | Epsilon: 0.9212158
+2026-05-01 16:35:01,093 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 38.7 | Epsilon: 0.9173845
+2026-05-01 16:35:01,233 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:07,486 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 40.5 | Epsilon: 0.9033166
+2026-05-01 16:35:12,255 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 30.8 | Epsilon: 0.9002674
+2026-05-01 16:35:12,368 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:19,027 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 43.3 | Epsilon: 0.8889715
+2026-05-01 16:35:23,184 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 26.7 | Epsilon: 0.8863282
+2026-05-01 16:35:23,376 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:28,886 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 35.3 | Epsilon: 0.8741611
+2026-05-01 16:35:32,475 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 22.5 | Epsilon: 0.8719336
+2026-05-01 16:35:32,712 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:35,679 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 19.2 | Epsilon: 0.8608159
+2026-05-01 16:35:41,366 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 37.0 | Epsilon: 0.8571529
+2026-05-01 16:35:41,567 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:41,583 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed0\models\model_ep200.pth
+2026-05-01 16:35:41,590 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed0\models\model_ep200.pth
+2026-05-01 16:35:41,600 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed0\logs\training_results.json
+2026-05-01 16:35:41,624 [INFO] Starting training for 200 episodes
+2026-05-01 16:35:41,636 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 38.9 | Epsilon: 0.9961489
+2026-05-01 16:35:41,681 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 34.6 | Epsilon: 0.9927235
+2026-05-01 16:35:41,776 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:41,824 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 33.4 | Epsilon: 0.980695
+2026-05-01 16:35:41,850 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 37.5 | Epsilon: 0.9769825
+2026-05-01 16:35:41,932 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:41,966 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 41.7 | Epsilon: 0.9623503
+2026-05-01 16:35:45,042 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 33.6 | Epsilon: 0.9590239
+2026-05-01 16:35:45,139 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:49,992 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 31.8 | Epsilon: 0.9460648
+2026-05-01 16:35:54,405 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 28.7 | Epsilon: 0.9432235
+2026-05-01 16:35:54,501 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:35:59,563 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 28.7 | Epsilon: 0.9322444
+2026-05-01 16:36:02,745 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 20.5 | Epsilon: 0.9302149
+2026-05-01 16:36:02,869 [INFO] [EVAL] Episode 100 | Mean Reward: 0.03 | Std: 0.18 | Success Rate: 0.03333333333333333
+2026-05-01 16:36:02,884 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed1\models\model_ep100.pth
+2026-05-01 16:36:08,672 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 37.7 | Epsilon: 0.9188695
+2026-05-01 16:36:11,943 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 20.9 | Epsilon: 0.9168004
+2026-05-01 16:36:12,070 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:36:16,116 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 25.9 | Epsilon: 0.9048313
+2026-05-01 16:36:20,303 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 26.8 | Epsilon: 0.9021781
+2026-05-01 16:36:20,469 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:36:26,035 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 36.0 | Epsilon: 0.8901595
+2026-05-01 16:36:30,295 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 27.2 | Epsilon: 0.8874667
+2026-05-01 16:36:30,481 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:36:34,101 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 23.2 | Epsilon: 0.8756659
+2026-05-01 16:36:40,053 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 38.4 | Epsilon: 0.8718643
+2026-05-01 16:36:40,210 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:36:45,174 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 32.2 | Epsilon: 0.8613109
+2026-05-01 16:36:47,913 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 17.4 | Epsilon: 0.8595883
+2026-05-01 16:36:48,097 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:36:48,117 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed1\models\model_ep200.pth
+2026-05-01 16:36:48,127 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed1\models\model_ep200.pth
+2026-05-01 16:36:48,134 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed1\logs\training_results.json
+2026-05-01 16:36:48,157 [INFO] Starting training for 200 episodes
+2026-05-01 16:36:48,175 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 32.1 | Epsilon: 0.9968221
+2026-05-01 16:36:48,197 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 42.0 | Epsilon: 0.9926641
+2026-05-01 16:36:48,266 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:36:48,285 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 30.0 | Epsilon: 0.9823879
+2026-05-01 16:36:48,308 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 35.9 | Epsilon: 0.9788338
+2026-05-01 16:36:48,383 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:36:48,409 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 32.8 | Epsilon: 0.9663499
+2026-05-01 16:36:50,511 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 40.5 | Epsilon: 0.9623404
+2026-05-01 16:36:50,587 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:36:55,569 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 32.8 | Epsilon: 0.9513613
+2026-05-01 16:37:00,120 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 29.9 | Epsilon: 0.9484011999999999
+2026-05-01 16:37:00,255 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:37:06,886 [INFO] Episode 90/200 | Avg Reward: 0.10 | Avg Length: 43.5 | Epsilon: 0.9345313
+2026-05-01 16:37:11,594 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 30.6 | Epsilon: 0.9315019
+2026-05-01 16:37:11,704 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:37:11,719 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed2\models\model_ep100.pth
+2026-05-01 16:37:16,021 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 27.9 | Epsilon: 0.9214435
+2026-05-01 16:37:21,457 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 35.6 | Epsilon: 0.9179191
+2026-05-01 16:37:21,608 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:37:25,872 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 26.0 | Epsilon: 0.9058015
+2026-05-01 16:37:31,188 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 34.1 | Epsilon: 0.9024256
+2026-05-01 16:37:31,374 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:37:37,111 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 36.8 | Epsilon: 0.8888923
+2026-05-01 16:37:44,523 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 48.0 | Epsilon: 0.8841403
+2026-05-01 16:37:44,740 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:37:50,625 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 37.7 | Epsilon: 0.8716267
+2026-05-01 16:37:56,396 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 37.3 | Epsilon: 0.867934
+2026-05-01 16:37:56,623 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:02,326 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 36.3 | Epsilon: 0.8520247
+2026-05-01 16:38:06,348 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 26.1 | Epsilon: 0.8494408
+2026-05-01 16:38:06,636 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:06,644 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed2\models\model_ep200.pth
+2026-05-01 16:38:06,655 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed2\models\model_ep200.pth
+2026-05-01 16:38:06,667 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed2\logs\training_results.json
+2026-05-01 16:38:06,687 [INFO] Starting training for 200 episodes
+2026-05-01 16:38:06,699 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 36.2 | Epsilon: 0.9964162
+2026-05-01 16:38:06,720 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 30.3 | Epsilon: 0.9934165
+2026-05-01 16:38:06,764 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:06,786 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 35.1 | Epsilon: 0.9802495
+2026-05-01 16:38:06,819 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 27.5 | Epsilon: 0.977527
+2026-05-01 16:38:06,894 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:06,919 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 26.1 | Epsilon: 0.9652015
+2026-05-01 16:38:06,948 [INFO] Episode 60/200 | Avg Reward: 0.00 | Avg Length: 31.7 | Epsilon: 0.9620632
+2026-05-01 16:38:07,063 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:11,067 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 38.7 | Epsilon: 0.9461935
+2026-05-01 16:38:14,459 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 22.1 | Epsilon: 0.9440056
+2026-05-01 16:38:14,562 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:19,967 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 35.4 | Epsilon: 0.93169
+2026-05-01 16:38:24,499 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 29.6 | Epsilon: 0.9287596
+2026-05-01 16:38:24,618 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:24,633 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed3\models\model_ep100.pth
+2026-05-01 16:38:30,241 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 35.7 | Epsilon: 0.9180379
+2026-05-01 16:38:35,415 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 33.2 | Epsilon: 0.9147511
+2026-05-01 16:38:35,604 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:40,891 [INFO] Episode 130/200 | Avg Reward: 0.10 | Avg Length: 34.0 | Epsilon: 0.9014356
+2026-05-01 16:38:45,656 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 30.9 | Epsilon: 0.8983765
+2026-05-01 16:38:45,829 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:38:52,122 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 40.3 | Epsilon: 0.8846353
+2026-05-01 16:38:55,339 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 20.8 | Epsilon: 0.8825761
+2026-05-01 16:38:55,545 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:01,352 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 37.5 | Epsilon: 0.8687062
+2026-05-01 16:39:05,491 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 25.4 | Epsilon: 0.8661916000000001
+2026-05-01 16:39:05,731 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:10,704 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 31.8 | Epsilon: 0.8514703
+2026-05-01 16:39:15,800 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 31.3 | Epsilon: 0.8483716
+2026-05-01 16:39:16,068 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:16,078 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed3\models\model_ep200.pth
+2026-05-01 16:39:16,089 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed3\models\model_ep200.pth
+2026-05-01 16:39:16,098 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed3\logs\training_results.json
+2026-05-01 16:39:16,119 [INFO] Starting training for 200 episodes
+2026-05-01 16:39:16,137 [INFO] Episode 10/200 | Avg Reward: 0.00 | Avg Length: 28.9 | Epsilon: 0.9971389
+2026-05-01 16:39:16,153 [INFO] Episode 20/200 | Avg Reward: 0.00 | Avg Length: 28.9 | Epsilon: 0.9942778
+2026-05-01 16:39:16,197 [INFO] [EVAL] Episode 20 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:16,230 [INFO] Episode 30/200 | Avg Reward: 0.00 | Avg Length: 43.5 | Epsilon: 0.9809029
+2026-05-01 16:39:16,253 [INFO] Episode 40/200 | Avg Reward: 0.00 | Avg Length: 37.9 | Epsilon: 0.9771508
+2026-05-01 16:39:16,343 [INFO] [EVAL] Episode 40 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:16,377 [INFO] Episode 50/200 | Avg Reward: 0.00 | Avg Length: 32.6 | Epsilon: 0.9629047
+2026-05-01 16:39:18,361 [INFO] Episode 60/200 | Avg Reward: 0.10 | Avg Length: 40.9 | Epsilon: 0.9588556
+2026-05-01 16:39:18,456 [INFO] [EVAL] Episode 60 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:25,925 [INFO] Episode 70/200 | Avg Reward: 0.00 | Avg Length: 48.3 | Epsilon: 0.9459361
+2026-05-01 16:39:29,183 [INFO] Episode 80/200 | Avg Reward: 0.00 | Avg Length: 21.3 | Epsilon: 0.9438274
+2026-05-01 16:39:29,292 [INFO] [EVAL] Episode 80 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:33,874 [INFO] Episode 90/200 | Avg Reward: 0.00 | Avg Length: 29.9 | Epsilon: 0.9315415
+2026-05-01 16:39:39,212 [INFO] Episode 100/200 | Avg Reward: 0.00 | Avg Length: 35.0 | Epsilon: 0.9280765
+2026-05-01 16:39:39,340 [INFO] [EVAL] Episode 100 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:39,358 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed4\models\model_ep100.pth
+2026-05-01 16:39:42,536 [INFO] Episode 110/200 | Avg Reward: 0.00 | Avg Length: 20.6 | Epsilon: 0.9176815
+2026-05-01 16:39:45,987 [INFO] Episode 120/200 | Avg Reward: 0.00 | Avg Length: 22.3 | Epsilon: 0.9154738
+2026-05-01 16:39:46,192 [INFO] [EVAL] Episode 120 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:39:51,362 [INFO] Episode 130/200 | Avg Reward: 0.00 | Avg Length: 33.6 | Epsilon: 0.9005545
+2026-05-01 16:39:57,871 [INFO] Episode 140/200 | Avg Reward: 0.00 | Avg Length: 42.4 | Epsilon: 0.8963569
+2026-05-01 16:39:58,049 [INFO] [EVAL] Episode 140 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:40:03,778 [INFO] Episode 150/200 | Avg Reward: 0.00 | Avg Length: 36.9 | Epsilon: 0.8834275
+2026-05-01 16:40:09,191 [INFO] Episode 160/200 | Avg Reward: 0.00 | Avg Length: 34.8 | Epsilon: 0.8799823
+2026-05-01 16:40:09,366 [INFO] [EVAL] Episode 160 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:40:17,106 [INFO] Episode 170/200 | Avg Reward: 0.00 | Avg Length: 49.6 | Epsilon: 0.8669836
+2026-05-01 16:40:20,404 [INFO] Episode 180/200 | Avg Reward: 0.00 | Avg Length: 21.4 | Epsilon: 0.864865
+2026-05-01 16:40:20,609 [INFO] [EVAL] Episode 180 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:40:24,730 [INFO] Episode 190/200 | Avg Reward: 0.00 | Avg Length: 26.2 | Epsilon: 0.8531038
+2026-05-01 16:40:31,745 [INFO] Episode 200/200 | Avg Reward: 0.00 | Avg Length: 44.5 | Epsilon: 0.8486983
+2026-05-01 16:40:31,970 [INFO] [EVAL] Episode 200 | Mean Reward: 0.00 | Std: 0.00 | Success Rate: 0.0
+2026-05-01 16:40:31,991 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed4\models\model_ep200.pth
+2026-05-01 16:40:32,005 [INFO] Model saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed4\models\model_ep200.pth
+2026-05-01 16:40:32,012 [INFO] Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison\hcra_dqn\seed4\logs\training_results.json
+2026-05-01 16:40:34,231 [INFO] 
+Comparison complete. Results saved to E:\tencentarena\czh_dqn\czh_dqn_benchmark\results\FrozenLake-v1\comparison
+2026-05-01 16:40:34,231 [INFO] Metrics:
+{
+  "dqn": {
+    "total_episodes": 200,
+    "mean_reward": 0.002,
+    "std_reward": 0.019899748742132402,
+    "max_reward": 0.2,
+    "min_reward": 0.0,
+    "median_reward": 0.0,
+    "mean_reward_last_100": 0.0,
+    "std_reward_last_100": 0.0,
+    "convergence_episode": 100,
+    "steps_to_threshold": 2
+  },
+  "hcra_dqn": {
+    "total_episodes": 200,
+    "mean_reward": 0.0030000000000000005,
+    "std_reward": 0.02431049156228644,
+    "max_reward": 0.2,
+    "min_reward": 0.0,
+    "median_reward": 0.0,
+    "mean_reward_last_100": 0.002,
+    "std_reward_last_100": 0.01989974874213239,
+    "convergence_episode": 189,
+    "steps_to_threshold": 53
+  }
+}

@@ -1,0 +1,89 @@
+# HCRA-DQN Ablation Study Configuration
+#
+# Four variants:
+#   1. dqn          - Standard DQN baseline
+#   2. dqn_causal   - DQN + causal self-attention (flat)
+#   3. dqn_hier     - DQN + hierarchical causal attention (no recursion)
+#   4. hcra_dqn     - Full HCRA-DQN (hierarchical + causal + recursive)
+#
+# Two-round data collection:
+#   Round 1: random policy (diverse data) -> train briefly
+#   Round 2: epsilon=0.3 with partially-trained model -> better trajectories
+
+defaults:
+  training:
+    max_episodes: 200
+    eval_interval: 20
+    eval_episodes: 30
+    save_interval: 100
+    log_interval: 10
+
+  shared:
+    gamma: 0.99
+    learning_rate: 0.0003
+    epsilon_start: 1.0
+    epsilon_end: 0.05
+    epsilon_decay_steps: 50000
+    batch_size: 64
+    buffer_size: 100000
+    learn_start: 5000
+    target_update_freq: 500
+    tau: 0.005
+    grad_clip: 10.0
+    hidden_dim: 128
+    mid_dim: 64
+
+environments:
+  - name: "CartPole-v1"
+    obs_dim: 4
+    action_num: 2
+    p_drop: 0.3
+
+  - name: "CartPole-v1"
+    obs_dim: 4
+    action_num: 2
+    p_drop: 0.5
+
+  - name: "FrozenLake-v1"
+    obs_dim: 64
+    action_num: 4
+    p_drop: 0.2
+
+variants:
+  dqn:
+    description: "Standard DQN (no attention)"
+    use_attention: false
+    use_sequence: false
+
+  dqn_causal:
+    description: "DQN + flat causal self-attention"
+    use_attention: true
+    use_sequence: true
+    num_segments: 1
+    num_refinements: 1
+    fusion_lambda: 0.0
+
+  dqn_hier:
+    description: "DQN + hierarchical causal attention"
+    use_attention: true
+    use_sequence: true
+    num_segments: 4
+    num_refinements: 1
+    fusion_lambda: 0.0
+
+  hcra_dqn:
+    description: "Full HCRA-DQN (hierarchical + causal + recursive)"
+    use_attention: true
+    use_sequence: true
+    num_segments: 4
+    num_refinements: 2
+    fusion_lambda: 0.0
+    contract_reg_coeff: 0.01
+
+num_seeds: 20
+
+offline:
+  collect_episodes: 500       # Total episodes across both rounds
+  round1_batches: 200         # Training batches after round 1
+  train_batches: 500          # Total training batches (round 2 final)
+  eval_episodes: 100

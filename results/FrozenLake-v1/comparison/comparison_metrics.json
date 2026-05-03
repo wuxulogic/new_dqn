@@ -1,0 +1,26 @@
+{
+  "dqn": {
+    "total_episodes": 200,
+    "mean_reward": 0.002,
+    "std_reward": 0.019899748742132402,
+    "max_reward": 0.2,
+    "min_reward": 0.0,
+    "median_reward": 0.0,
+    "mean_reward_last_100": 0.0,
+    "std_reward_last_100": 0.0,
+    "convergence_episode": 100,
+    "steps_to_threshold": 2
+  },
+  "hcra_dqn": {
+    "total_episodes": 200,
+    "mean_reward": 0.0030000000000000005,
+    "std_reward": 0.02431049156228644,
+    "max_reward": 0.2,
+    "min_reward": 0.0,
+    "median_reward": 0.0,
+    "mean_reward_last_100": 0.002,
+    "std_reward_last_100": 0.01989974874213239,
+    "convergence_episode": 189,
+    "steps_to_threshold": 53
+  }
+}
